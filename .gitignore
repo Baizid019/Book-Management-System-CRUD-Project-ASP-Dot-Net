@@ -1,0 +1,12 @@
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Build folders
+bin/
+obj/
+
+# Other files to ignore
+*.log

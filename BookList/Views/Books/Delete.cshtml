@@ -1,0 +1,27 @@
+﻿@model BookList.Models.Book
+
+<h2>Delete Book</h2>
+
+<h4>Are you sure?</h4>
+
+<div>
+
+    <p>@Model.Title</p>
+
+    <p>@Model.Author</p>
+
+    <p>@Model.Price</p>
+
+</div>
+
+<form asp-action="Delete">
+
+    <input type="hidden" asp-for="Id" />
+
+    <button class="btn btn-danger">
+        Delete
+    </button>
+
+    <a asp-action="Index">Cancel</a>
+
+</form>
